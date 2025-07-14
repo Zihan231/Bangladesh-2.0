@@ -6,16 +6,16 @@
   box-sizing: border-box;
   font-family: "Fira Sans", sans-serif;
 }
-body{
-    background-color: #F5F5F5;
+body {
+  background-color: #f5f5f5;
 }
 section {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
-.common-measures{
-    width: 1280px;
-    margin-right: auto;
-    margin-left: auto;
+.common-measures {
+  width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .btn-LightGreen {
 }
@@ -42,13 +42,21 @@ section {
 .Green {
   color: #006a50;
 }
+nav h1 {
+  font-size: 32px;
+}
 nav {
-  padding: 24px 160px;
+  width: 1280px;
+  margin: 24px auto 20px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+#Explore-Section img {
+  width: 43%;
+}
 #Explore-Section {
+  height: 560px;
   padding: 80px 100px;
   background-color: #c6e4d6;
   border-radius: 24px;
@@ -56,6 +64,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   gap: 64px;
+}
+#Explore-Section-Div {
+  width: 57%;
 }
 #Hero-Heading {
   color: #0e0e0e50;
@@ -77,69 +88,112 @@ nav {
 #pillar-Card-Container {
   display: flex;
   justify-content: space-between;
-    gap: 24px;
-}   
-.Pillar-Cards img{
-    margin-bottom: 24px;
+  gap: 24px;
 }
-.Pillar-Cards p{
-    font-size: 16px;
-    font-weight: normal;
-    color: #0e0e0ea2;
+.Pillar-Cards img {
+  margin-bottom: 24px;
+}
+.Pillar-Cards p {
+  font-size: 16px;
+  font-weight: normal;
+  color: #0e0e0ea2;
+}
+.Pillar-Cards h4 {
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000c1;
+}
+.Pillar-Cards {
+  background-color: white;
+  border: solid 1px #0e0e0e15;
+  border-radius: 16px;
+  padding: 24px;
+  margin-top: 32px;
+}
+#vision-Section div {
+  margin-bottom: 32px;
+}
+#Vision-Headings p {
+  font-size: 16px;
+  font-weight: normal;
+  color: #0e0e0ea2;
+}
+#Vision-Headings h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
 
+#Visson-Cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
 }
-.Pillar-Cards h4{
-    margin-bottom: 12px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #000000c1;
+.box1 {
+  background-color: #5490f520;
+  border: solid 1px #5490f550;
 }
-.Pillar-Cards{
-    background-color: white;
-    border: solid 1px #0E0E0E15;
-    border-radius: 16px;
-    padding: 24px;
-    margin-top: 32px;
+.box2 {
+  background-color: #c6e4d6;
+  border: solid 1px #09a15c50;
 }
-#vision-Section div{
-    margin-bottom: 32px;
+.box3 {
+  background-color: #f7ebcf;
+  border: solid 1px #ffc23950;
 }
-#Vision-Headings p{
-    font-size: 16px;
-    font-weight: normal;
-    color: #0e0e0ea2;
+.Visson-Cards img {
+  margin-bottom: 25px;
 }
-#Vision-Headings h2{
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 24px;
+.Visson-Cards p {
+  font-size: 16px;
+  color: #0e0e0ea2;
+  margin-bottom: 24px;
 }
-#Visson-Cards-container{
-    display: flex;
-    justify-content: space-between;
-
+.Visson-Cards h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
 }
-.box1{
-    background-color: #5490F520;
-    border: solid 1px #5490F5;
+.Visson-Cards {
+  padding: 32px;
+  border-radius: 16px;
 }
-.Visson-Cards img{
-    margin-bottom: 25px;
-
+.Vison-Btn {
+  padding: 11px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  color: white;
 }
-.Visson-Cards p{
-    font-size: 16px;
-    color: #0e0e0ea2;
-    margin-bottom: 24px;
-    
+.box1-btn-color {
+  background-color: #5490f5;
 }
-.Visson-Cards h4{
-    font-size: 20px;
-    font-weight: bold;
-
+.box2-btn-color {
+  background-color: #09a15c;
 }
-.Visson-Cards{
-    padding: 32px;
-    border-radius: 16px;
-
+.box3-btn-color {
+  background-color: #ffc239;
+}
+#Quotes-Container p {
+  color: #0e0e0ea2;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 12px;
+}
+#Quotes-Container h3 {
+  color: #000000c1;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+#Quotes-Container {
+  background-image: url(./assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: 25px 25px;
+  background-color: #ffffff;
+  border: solid 1px #0e0e0e15;
+  padding: 48px 24px;
+  border-radius: 16px;
 }
