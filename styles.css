@@ -1,5 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+body{
+    background-color: #F5F5F5;
+}
+section {
+    margin-bottom: 80px;
+}
+.common-measures{
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.btn-LightGreen {
+}
+.btn-solid-color {
+  padding: 17px 34px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+}
+.button-bg-Green {
+  background-color: #006a50;
+}
+.btn-text-white {
+  color: white;
+}
+.Signup-btn {
+  padding: 15px 30px;
+  border-radius: 8px;
+  border: solid 2px #006a50;
+  font-size: 18px;
+  font-weight: 600;
+}
+.Green {
+  color: #006a50;
+}
+nav {
+  padding: 24px 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#Explore-Section {
+  padding: 80px 100px;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+}
+#Hero-Heading {
+  color: #0e0e0e50;
+  font-size: 24px;
+  font-weight: 500;
+}
+#Hero-Title {
+  font-size: 56px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin: 16px 0px 24px 0px;
+}
+
+#pillars-Section h2 {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: bold;
+}
+#pillar-Card-Container {
+  display: flex;
+  justify-content: space-between;
+    gap: 24px;
+}   
+.Pillar-Cards img{
+    margin-bottom: 24px;
+}
+.Pillar-Cards p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #0e0e0ea2;
+
+}
+.Pillar-Cards h4{
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000c1;
+}
+.Pillar-Cards{
+    background-color: white;
+    border: solid 1px #0E0E0E15;
+    border-radius: 16px;
+    padding: 24px;
+    margin-top: 32px;
+}
+#vision-Section div{
+    margin-bottom: 32px;
+}
+#Vision-Headings p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #0e0e0ea2;
+}
+#Vision-Headings h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+#Visson-Cards-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.box1{
+    background-color: #5490F520;
+    border: solid 1px #5490F5;
+}
+.Visson-Cards img{
+    margin-bottom: 25px;
+
+}
+.Visson-Cards p{
+    font-size: 16px;
+    color: #0e0e0ea2;
+    margin-bottom: 24px;
+    
+}
+.Visson-Cards h4{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.Visson-Cards{
+    padding: 32px;
+    border-radius: 16px;
+
 }
