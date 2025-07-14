@@ -111,8 +111,8 @@ nav {
   padding: 24px;
   margin-top: 32px;
 }
-#vision-Section div {
-  margin-bottom: 32px;
+#Vision-Headings ,#Visson-Cards-container {
+    margin-bottom: 32px;
 }
 #Vision-Headings p {
   font-size: 16px;
