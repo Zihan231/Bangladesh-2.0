@@ -89,7 +89,6 @@ nav {
 }
 #pillar-Card-Container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   gap: 24px;
 }
@@ -131,7 +130,7 @@ nav {
 
 #Visson-Cards-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
   gap: 24px;
 }
@@ -202,7 +201,64 @@ nav {
   padding: 48px 24px;
   border-radius: 16px;
 }
-#Opinion-Table-Container{
-    background-color: white;
-    padding: 32px;
+#Opinion-Table-Container {
+  background-color: white;
+  padding: 32px;
 }
+/* For Small Device */
+@media screen and (max-width: 576px) {
+  .common-measures {
+    width: 90vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  nav {
+    width: 90vw;
+  }
+  #Explore-Section img {
+    width: 99%;
+  }
+  #Explore-Section div {
+    text-align: center;
+    width: 100%;
+  }
+  #Explore-Section {
+    height: 63vh;
+    padding: 0.5% 5%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  #Hero-Title {
+    font-size: 1.5rem;
+  }
+  #pillar-Card-Container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #Visson-Cards-container {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .Pillar-Cards img{
+    width: 40%;
+  }
+  .Pillar-Cards{
+    margin-top: 0%;
+    text-align: center;
+  }
+  #pillars-Section h2{
+    margin-bottom: 3%;
+  }
+  #Vision-Headings h2{
+    margin-bottom: 3%;
+  }
+  
+  
+}
+/* For Medium Device */
+/* @media screen and (min-width: 576) and (max-width: 768px) {
+} */
+/* For Large Device */
